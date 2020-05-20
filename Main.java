@@ -4,5 +4,9 @@ class Main {
     System.out.println("Rly cool!");
     System.out.println("Synch me");
     System.out.println("Conflict plz :D");
+
+    Car car1 = new Car();
+    car1.name = "Fiat";
+    System.out.println(car1.name);
   }
 }
